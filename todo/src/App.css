@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.putTask {
+  height: 40vh;
+  background-color: lightcoral;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  flex-direction: column;
+} 
+
+.task {
+  width: 500px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.task button {
+  width: 25px;
+  height: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
